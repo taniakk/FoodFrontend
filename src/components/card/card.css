@@ -1,0 +1,17 @@
+.cardComponentcontain{
+    height: auto;
+    width: 100%;
+    border-radius:20px ;
+    background-color: rgb(218, 0, 0);
+    box-shadow: 2px 2px 5px gray;
+    margin: 0;
+    
+    
+}
+.cardComponentcontain:hover{
+    scale: 1.05;
+    cursor: pointer;
+    /* border: 2px solid black; */
+}
+
+

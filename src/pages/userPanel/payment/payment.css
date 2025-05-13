@@ -1,0 +1,48 @@
+.paymentContainer{
+ height: 100vh;
+ width: 100%;
+ /* background-color: rgb(68, 68, 215); */
+ background-image: url(/images/payment.jpg);
+ background-size: 100% 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.paymentBox{
+    height: auto;
+    width: 32%;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-inline: 100px;
+    padding-block: 50px;
+    border-radius: 25px;
+    box-shadow: gray 2px 2px 5px 5px;
+}
+.paymentH1{
+    text-align: center;
+    color:rgb(68, 68, 215);
+    text-shadow: white;
+}
+.inputPayment{
+    width: 95%;
+    height: 6vh;
+    border-radius: 25px;
+    margin-bottom: 20px;    
+}
+.PaymentSubmitBttn{
+    
+    height: 6vh;
+    width: 40%;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 70px;
+    background-color: rgb(68, 68, 215);
+}
+/* .labelPayment{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+} */

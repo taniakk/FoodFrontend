@@ -1,0 +1,71 @@
+.orderContainer{
+    background-image: url(/public/images/soup.jpg);
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.58);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+
+}
+
+.orderbox1{
+    background-color: rgba(0, 0, 0, 0.667);
+    height: 80vh;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    color: #0D68E5;
+    border-radius: 20px;
+
+}
+
+
+.subButton{
+    background-color:rgb(51, 90, 51);
+    width: 60%;
+    color: white;
+    border: none;
+    height: 5vh;
+    font-weight: 500;
+    margin-bottom: 2vw;
+    font-size: large;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.subButton:hover{
+    color: brown;
+    background-color: rgb(188, 178, 178);
+    border: 2px solid rgb(51, 90, 51) ;
+}
+.orderbox2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-shadow: 2px 2px black;
+}
+.orderInput{
+    width: 80%;
+    height: 5vh;
+}
+.orderInput{
+    /* height: 50px; */
+    display: flex;
+    align-self: self-start;
+    margin-left: 40px;
+    border-radius: 20px;
+    margin-bottom: 1vw;
+}
+

@@ -1,0 +1,23 @@
+.SubCatMain{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+.subCatbox{
+    margin-top: 2vw;
+    max-width: 1300px;
+    display: grid;
+    /* margin-inline: auto; */
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap: 3rem 3rem;
+    height: auto;
+    padding: 2rem 2rem;
+    /* background-color: aqua; */
+
+}
+.SubCath1{
+    padding: 2rem 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    text-shadow: 2px 2px orange;
+}

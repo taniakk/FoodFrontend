@@ -1,0 +1,70 @@
+.updatecontainer{
+    background-image: url(public/images/signbg.jpg);
+    border: 2px solid transparent;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.updatebox{
+
+    height: 60vh;
+    width: 30%;
+    margin-top: 4rem;
+    background: transparent;
+    background-color: transparent;
+    
+    /* margin-left: auto;
+    margin-right: auto; */
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+.updatebtn{
+    background-color:rgb(51, 90, 51);
+    width: 60%;
+    color: white;
+    border: none;
+    height: 5vh;
+    font-weight: 500;
+    font-size: large;
+    border-radius: 20px;
+
+}
+.updatebtn:hover{
+    color: brown;
+    background-color: rgb(188, 178, 178);
+    border: 2px solid rgb(51, 90, 51) ;
+
+}
+.updateinput{
+    border-radius: 20px;
+
+}
+.updatebox .updatebox1{
+    width: 500px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.58);
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.updateh1{
+    color:#0D68E5; ;
+}
+.updatebox1 .updateinput{
+   padding: 10px 20px;
+
+}
+.updatebtn{
+    width: 40%;
+    border-radius: 20px;
+
+}

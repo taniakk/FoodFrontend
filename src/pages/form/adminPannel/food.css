@@ -1,0 +1,131 @@
+/* General container settings */
+.foodboxContainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    padding: 20px;
+    background-image: url(/public/images/cake.jpg);
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.58);
+  }
+  
+  /* Form box settings */
+  .foodbox1 {
+    background-color: rgba(0, 0, 0, 0.667);
+
+    /* height: 85vh; */
+    width: 40%;
+    padding: 30px;
+    border-radius: 20px;
+    /* width: 100%; */
+    /* max-width: 600px; */
+    /* margin: 0 auto; */
+    overflow: hidden;
+    color: #0D68E5;
+  }
+
+  .foodbox1 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Form Header */
+  .foodbox1 h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0D68E5;
+  }
+  
+  /* Label Styles */
+  .foodbox1 label {
+    /* font-size: 14px; */
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 15px;
+    display: block;
+    color: #0D68E5;
+  }
+  
+  /* Input styles */
+  .foodbox1 input, .foodbox1 select {
+    width: 100%;
+    padding: 6px 10px;
+    /* margin-bottom: 15px; */
+    border-radius: 20px;
+    /* border: 1px solid #ddd; */
+    font-size: 14px;
+    color: #0D68E5;
+  }
+
+  .imageinput{
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border-radius: 20px;
+   
+  }
+  
+  /* Styling for the buttons */
+  .foodbtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50%;
+    
+    /* transition: background-color 0.3s ease; */
+  }
+  
+  /* Hover effect for the button */
+  .foodbtn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .foodbox1 {
+      padding: 20px;
+      max-width: 90%;
+    }
+  
+    .foodbox1 h1 {
+      font-size: 20px;
+    }
+  
+    .foodbox1 input, .foodbox1 select {
+      font-size: 16px;
+    }
+  
+    .foodbtn {
+      padding: 12px 15px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .foodbox1 {
+      padding: 15px;
+    }
+  
+    .foodbox1 h1 {
+      font-size: 18px;
+    }
+  
+    .foodbox1 input, .foodbox1 select {
+      font-size: 14px;
+    }
+  
+    /* .foodbtn {
+      padding: 10px 12px;
+      font-size: 14px;
+      width: 50%;
+    } */
+  }
+  

@@ -1,0 +1,88 @@
+.loginContainer{
+
+    /* background-color: rgb(176, 173, 173); */
+    height: 100vh;
+    background-image: url(public/images/signbg.jpg);
+    display: flex;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.58);
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.loginbox1{
+    background-color: rgba(0, 0, 0, 0.667);
+    height: 60vh;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+
+}
+.loginbox1 .loginformbox{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    height: 60vh;
+    /* justify-content: space-around; */
+    /* gap: 10px; */
+}
+
+
+
+.loginButton{
+    background-color:rgb(51, 90, 51);
+    width: 40%;
+    
+    color: white;
+    border: none;
+    height: 5vh;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: large;
+}
+.loginButton:hover{
+    color: rgb(51, 90, 51);
+
+    background-color: transparent;
+    /* background-color: rgb(188, 178, 178); */
+    border: 2px solid rgb(51, 90, 51) ;
+}
+.loginformbox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginh1{
+    /* text-shadow: 2px 2px black; */
+    text-shadow: none;
+    font-size: 45px;
+    margin-bottom: 50px;
+    color: #0D68E5;
+}
+.phninput{
+    border-radius: 20px;
+    /* width: 300px; */
+}
+.loginInput{
+    width: 80%;
+    height: 5vh;
+    border-radius: 20px ;
+    box-shadow: 5px 5px 10px;
+    border: none;
+    padding-left: 15px;
+}
+.loginInput{
+    display: flex;
+    align-self: self-start;
+    margin-left: 40px;
+    
+}
+

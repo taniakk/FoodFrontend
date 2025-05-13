@@ -1,0 +1,21 @@
+.mainBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+    height: auto;
+    padding: 50px;
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .mainBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+        padding: 80px;
+    }
+}
