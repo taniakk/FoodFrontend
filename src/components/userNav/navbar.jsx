@@ -26,7 +26,7 @@ function UserNav() {
             <div className="usernav">
 
                 <div className="userlogobox">
-                    <img src={"/public/image/foodlogo2.png"} alt="" srcset="" height={"50px"} width={"200px"}  />
+                    <img src={"/image/foodlogo2.png"} alt="" srcset="" height={"50px"} width={"200px"}  />
                 </div>
 
                 {/* Navbar part */}
