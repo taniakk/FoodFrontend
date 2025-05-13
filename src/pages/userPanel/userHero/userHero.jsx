@@ -3,7 +3,7 @@ import NewFood from "../NewFood/newFood.jsx";
 import Slider from "../slider/slider";
 
 import AboutUser from "../about/about.jsx";
-import PopularFood from "../popularFood/popularFood.jsx";
+import PopularFood from "../PopularFood/popularFood.jsx";
 import MyFooter from "../../../components/footer/footer.jsx";
 import TopOffers from "../offerslider.jsx";
 import { Link } from "react-router-dom";
