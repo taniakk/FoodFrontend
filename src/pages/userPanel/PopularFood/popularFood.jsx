@@ -8,13 +8,13 @@ function PopularFood() {
             <h2 className="pop-h">Popular Food Right Now</h2>
         </div>
         <div className="newPopularFoodbox2 " >
-        <Cards img={'public/images/11.jpg'} heding={'First'} 
+        <Cards img={'/images/11.jpg'} heding={'First'} 
          he={"400px"}
         wi={"300px"}
         />
 
 
-        <Cards img={'public/images/12.jpg'} heding={'Second'} 
+        <Cards img={'/images/12.jpg'} heding={'Second'} 
          he={"400px"}
          wi={"300px"}
         />
@@ -22,13 +22,13 @@ function PopularFood() {
 
 
 
-        <Cards img={'public/images/chikenburger.jpg'} heding={'Third'} 
+        <Cards img={'/images/chikenburger.jpg'} heding={'Third'} 
       he={"400px"}
       wi={"300px"}
         />
 
 
-        <Cards img={'public/images/rajmachawal.jpg'} heding={'Fourth'} 
+        <Cards img={'/images/rajmachawal.jpg'} heding={'Fourth'} 
    he={"400px"}
    wi={"300px"}
         />
