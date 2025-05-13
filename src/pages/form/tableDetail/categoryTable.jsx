@@ -5,7 +5,6 @@ import { DataGrid } from "@mui/x-data-grid";
 import Swal from "sweetalert2";
 import { Paper } from "@mui/material";
 import { ImCross } from "react-icons/im";
-import category from "../../../../../../backend/src/models/category.model";
 
 function CategoryTable() {
 
