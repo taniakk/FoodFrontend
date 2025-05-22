@@ -31,7 +31,7 @@ function NewFood() {
   return (
     <div className="newFoodContainer">
       <div className="newFoodHeader">
-        <h1 className="tagline">🍟Explore Delicious Categories at Our Canteen🍟</h1>
+        <h1 className="tagline">🍟Explore Delicious Categories at Our Cafeteria🍟</h1>
         <p className="subTagline">Fresh, Fast, and Flavorful – Pick your favorite now!</p>
       </div>
 
