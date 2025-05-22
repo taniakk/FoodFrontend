@@ -26,7 +26,7 @@ function TopOffer() {
 
     return (
         <div className="topContainer mt-5">
-            <h1 className="offerHeading">🔥 Today's Top Canteen Deals 🔥</h1>
+            <h1 className="offerHeading">🔥 Today's Top Cafeteria Deals 🔥</h1>
 
             <Swiper
                 effect={'coverflow'}
